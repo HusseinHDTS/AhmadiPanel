@@ -1,0 +1,31 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "slug": "dashboard"
+    },
+    {
+      "name": "Users",
+      "slug": "app-user-list",
+      "icon": "menu-icon tf-icons ti ti-users",
+      "role": "admin",
+      "url": "app/user/list"
+    },
+    {
+      "name": "Configs",
+      "slug": "app-config-list",
+      "icon": "menu-icon tf-icons ti ti-settings",
+      "role": "admin",
+      "url": "app/config/list"
+    },
+    {
+      "name": "Backups",
+      "slug": "app-backup-list",
+      "icon": "menu-icon tf-icons ti ti-files",
+      "role": "admin",
+      "url": "app/backup/list"
+    }
+  ]
+}
